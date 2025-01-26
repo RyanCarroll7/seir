@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-from simulation.simulator import simulate_seir
-from viz.plot_seir import plot_results
+from simulation import simulate_seir
+from viz import plot_results
 
 
 if __name__ == "__main__":
