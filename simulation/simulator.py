@@ -1,5 +1,5 @@
 
-def simulate_seir(parameters, init_conditions, days=51):
+def simulate_seir(parameters=(3, 0.5, 0.5), init_conditions=(9999., 1., 0., 0.), days=51):
     """TODO"""
 
     # Extract parameters and initial conditions (Your code here)
