@@ -1,0 +1,7 @@
+name: seir
+dependencies:
+  - python == 3.12
+  - pip
+  - pip:
+    - matplotlib >= 3.10.0
+    - numpy ~= 1.26.3
