@@ -1,7 +1,9 @@
 import matplotlib.pyplot as plt
+import numpy as np
+import numpy.typing as npt
 
 
-def plot_results(infected):
+def plot_results(infected: npt.NDArray[np.float64]):
     """Plots the time series of infected cases."""
     
     fig, ax = plt.subplots(1, 1, figsize=(10, 6))
